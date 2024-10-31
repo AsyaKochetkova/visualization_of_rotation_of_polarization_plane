@@ -13,22 +13,22 @@
 ## Архитектура
 Класс Blocks
 
-атрибуты: fragility   
-методы: generation, destruction
+атрибуты: fragility,cur_fragility   
+методы: change_fragility
 
 Класс Ball
 
 атрибуты: size  
-методы: generation
+методы: change_size
 
 Класс Platform
 
-атибуты: size, speed   
-методы: move
+атибуты: size, speed , coordinate  
+методы: cur_coordinate, change_size, change_speed
 
 Класс Field
 
 атрибуты: size   
-методы: generation_configuration
+методы: generate_block_configuration
 
 
